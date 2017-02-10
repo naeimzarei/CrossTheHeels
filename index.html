@@ -1,0 +1,35 @@
+<!Doctype HTML>
+
+<html>
+
+<head>
+    <title> Cross the Heels</title>
+    <!--JQuery support-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <!--Howler support-->
+    <script type="text/javascript" src="howler.js"></script>
+    <!--Javascript code-->
+    <script type="text/javascript" src="javascript.js"></script>
+    <!--External CSS-->
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <!--Title, game instructions on right side of page-->
+    <div id="title">
+        <button id="play" style="width: 100px; height: 50px; background-color: #E04F5E; position: absolute; right: 750px; top: 275px; z-index: 1; border: 2px solid; border-radius: 25px;"> BEGIN</button>
+        <p class="headers" style="font-size: 50px; text-align:center;"> Cross The Heels</p>
+        <img src="rameses.jpg" style="height: 190px; width: 250px; position: absolute; top: 250px;">
+        <div style="position: absolute; bottom: 40px; width: 200px;">
+            <p class="headers" style="font-weight:100; font-size: 10px; text-align: left;"> Copyright &copy; 2016 Naeim Zarei. <span id="newWindow" style="color: #E04F5E; font-weight: 500;" onclick="linkToUNC()"><br>University of North Carolina at Chapel Hill</span>. </p>
+        </div>
+    </div>
+
+    <!--Gameboard-->
+    <div class="gameboard">
+        <!--Main character-->
+        <img id="player" src="player.gif">
+    </div>
+</body>
+
+</html>
